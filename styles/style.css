@@ -17,9 +17,9 @@
 
 .link-box-hover:hover {
   box-shadow: 0 0 5px #948f93,
-               0 0 25px #948f93,
-               0 0 25px #948f93,
-               0 0 50px #948f93;
+              0 0 25px #948f93,
+              0 0 25px #948f93,
+              0 0 50px #948f93;
 }
 
 
@@ -112,7 +112,7 @@
   background-size: cover;
 }
 
-.card::after, .cover::after {
+.overlay::after {
   content: '';
   position: absolute;
   inset: 0;
