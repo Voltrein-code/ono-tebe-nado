@@ -22,6 +22,14 @@
               0 0 50px #948f93;
 }
 
+.overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.6;
+  background: #000;
+}
 
 .page {
   max-width: 1440px;
@@ -110,15 +118,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.overlay::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.6;
-  background: #000;
 }
 
 .cover__title {
